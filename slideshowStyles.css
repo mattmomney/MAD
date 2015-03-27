@@ -1,0 +1,20 @@
+#slideshow {
+	background-color: black;
+	margin: auto;
+	margin-top: 15px;
+	width: 768px;
+	height: 200px;
+	border-left: 15px solid black;
+	border-right: 15px solid black;
+	}
+	
+#slideshow:hover {
+	cursor: pointer;
+	}
+	
+#slide {
+	width: 768px;
+	height: 200px;
+	}
+	
+#slides img {display: none;}
