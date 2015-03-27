@@ -1,0 +1,29 @@
+section #main {
+	width: auto;
+	height: 100%;
+	z-index: 0;
+}
+
+section #bar {
+	background-color: black;
+	width: auto;
+	height: 5%;
+	padding: 5px;
+	
+}
+
+section #content {
+
+	background-color: grey;
+	color: white;
+	height: 45%;
+	width: 100%;
+
+}
+
+section #content h2 {
+	text-align: right;
+	padding-top: 20px;
+	margin-right: 10%;
+	letter-spacing: 2px;
+}
