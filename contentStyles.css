@@ -4,6 +4,8 @@ section #main {
 	z-index: 0;
 }
 
+/* Black Bar */
+
 section #bar {
 	background-color: black;
 	width: auto;
@@ -12,13 +14,14 @@ section #bar {
 	
 }
 
-section #content {
+/* Index Main Content */
 
+section #content {
+	font-family: "Myriad Pro", sans, sans-serif;
 	background-color: grey;
 	color: white;
 	height: 45%;
 	width: 100%;
-
 }
 
 section #content h2 {
@@ -27,3 +30,66 @@ section #content h2 {
 	margin-right: 10%;
 	letter-spacing: 2px;
 }
+
+section #content ul {
+	font-size: 17px;
+	line-height: 26px;
+	float: right;
+	margin-top: -40px;
+	margin-right: 10%;
+}
+section #content ul a {
+	font-size: 18px;
+	color: black;
+	text-decoration: none;
+}
+
+
+
+div #contentVid {
+	margin-left: 40%;
+	margin-top: 200px;
+}
+
+div #contentImg {
+	width: 50px;
+	height: 50px;
+}
+
+/* Program Information Content */
+
+section #programContent {
+	font-family: "Myriad Pro", sans, sans-serif;
+	background-color: grey;
+	color: white;
+	height: 45%;
+	width: 100%;
+	margin: 15px 0 0 0;
+	padding: 10px 0 10px 0;
+}
+
+section #programContent ul {
+	line-height: 24px;
+	list-style-type: none;
+	margin-top: 10px;
+}
+/* Table Content */
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th,td {
+    padding: 15px;
+}
+
+ table th {
+ 	text-align: left;
+ }
+
+ table td{
+ 	display: block;
+ 	text-align: left;
+ }
+
+
