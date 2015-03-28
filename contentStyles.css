@@ -1,28 +1,44 @@
-section #main {
-	width: auto;
-	height: 100%;
-	z-index: 0;
+body { 
+	background-color: black;
 }
 
-/* Black Bar */
+#wrapper{
+	background-color: white;
+	width: 80%;
+	margin: 0 auto;
+}
+
+section #main {
+	background-color: white;
+	width: auto;
+	height: 100%;
+}
+
+/********* Black Bar *********/
 
 section #bar {
 	background-color: black;
-	width: auto;
+	width: 100%;
 	height: 5%;
 	padding: 5px;
-	
+	margin: 0 auto;
 }
 
-/* Index Main Content */
+/************************************************* index.HTML Main Content CSS ****************************************/
 
 section #content {
 	font-family: "Myriad Pro", sans, sans-serif;
 	background-color: grey;
 	color: white;
-	height: 45%;
+	height: 100%;
 	width: 100%;
+	margin: 0 auto;
 }
+ section article p {
+ 	text-indent: 10px;
+ 	width: 450px;
+ 	margin: -40px 450px 40px;
+ }
 
 section #content h2 {
 	text-align: right;
@@ -47,8 +63,8 @@ section #content ul a {
 
 
 div #contentVid {
-	margin-left: 40%;
-	margin-top: 200px;
+	margin-left: 42%;
+	margin-bottom: 10%;
 }
 
 div #contentImg {
@@ -62,7 +78,7 @@ section #programContent {
 	font-family: "Myriad Pro", sans, sans-serif;
 	background-color: grey;
 	color: white;
-	height: 45%;
+	height: 100%;
 	width: 100%;
 	margin: 15px 0 0 0;
 	padding: 10px 0 10px 0;
@@ -74,22 +90,94 @@ section #programContent ul {
 	margin-top: 10px;
 }
 /* Table Content */
-
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
+table {
+	border:0; 
+	border-collapse:collapse;
+	border:0px solid #FFCC00;
+	background-color: grey;
+	color: white;
+	width:45%;
+	margin-left: 35px;
+	cellpadding:3; 
+	cellspacing:3;
 }
-th,td {
-    padding: 15px;
+
+#table1 {
+	float: left;
 }
 
- table th {
- 	text-align: left;
- }
+#table2 {
+	float: left;
+}
+/*************************************************** program.HTML Content CSS ********************************************/
 
- table td{
- 	display: block;
- 	text-align: left;
- }
+/*************************************************** resources.HTML Content CSS ********************************************/
 
+/*************************************************** faqs.HTML Content CSS ***********************************************/
+
+div#faqWrapper h2 {
+	text-align: left;
+	padding: 15px 30px;
+}
+
+div#faqWrapper h3 {
+	font-family: "Myriad Pro", sans, sans-serif;
+	font-size: 26px;
+	text-align: right;
+	padding: 30px 50px 0 0;
+}
+
+div.events {
+	text-align: left;
+	display: block;
+	width: 100%;
+	height: auto;
+	color: white;
+	}
+	
+div.info {
+	background-color: black;
+	text-align: left;}
+	
+div.events p {
+	font-family: "Myriad Pro", sans, sans-serif;
+	text-align: left;
+	letter-spacing: 1px;
+	color: white;
+	padding-top: 8px 16px;
+	}
+
+	
+div.events h2 {
+	font-family: "Myriad Pro", sans, sans-serif;
+	font-size: 16px;
+	text-align: left;
+	letter-spacing: 1px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	cursor: pointer;
+	background: url(../IMAGES//*ENTER IMAGE PLUS*/) no-repeat left center;
+	}
+
+div.events h2:hover {
+	font-size: 19px;
+	letter-spacing: 2px;
+	}
+
+
+div.events h2.minus {background: url(../IMAGES//*ENTER IMAGE MINUS*/) no-repeat left center;}
+
+div.events article {
+	font-family: "Myriad Pro", sans, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	display: none;
+	text-align: left;
+	letter-spacing: 1px;
+	padding: 0 16px;
+	}
+
+/*************************************************** device.HTML Content CSS ********************************************/
+
+/*************************************************** staff.HTML Content CSS ********************************************/
 
